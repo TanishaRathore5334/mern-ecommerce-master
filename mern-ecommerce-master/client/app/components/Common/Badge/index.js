@@ -27,6 +27,8 @@ const Badge = props => {
     badgeVariant && ` ${badgeVariant}`
   }`;
 
+
+  
   return (
     <span
       className={classNames}
