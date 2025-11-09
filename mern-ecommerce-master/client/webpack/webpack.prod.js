@@ -161,6 +161,7 @@ const config = {
         }
       ]
     }),
+    
     new OptimizeCssAssetsPlugin({
       assetNameRegExp: /\.css$/g,
       cssProcessor: require('cssnano'),
